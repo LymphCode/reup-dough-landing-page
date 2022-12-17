@@ -20,8 +20,8 @@ const Contact = () => {
 
   return (
     <section className="contact section" id="contact">
-      <h2 className="section__title">Get in touch</h2>
-      <span className="section__subtitle">Contact Us</span>
+      <h2 className="section__title">Contact Us</h2>
+      <span className="section__subtitle">Hurry! We sell out quick!</span>
 
       <div className="contact__container container grid">
         <div className="contact__content">
@@ -79,16 +79,16 @@ const Contact = () => {
             marginHeight={0}
             marginWidth={0}
             style={{ filter: "opacity(0.7)" }}
-            src="https://www.google.com/maps/embed/v1/place?q=Bondesque,+West+Lake+Street,+Minneapolis,+MN,+USA&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+            src="https://www.google.com/maps/embed/v1/place?q=Lake+Nokomis,+Minneapolis,+MN,+USA&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
           />
         </div>
 
         <div className="contact__content">
-          <h3 className="contact__title">Let us know how we can help!</h3>
+          <h3 className="contact__title">Place Order Here</h3>
 
           <form ref={form} onSubmit={sendEmail} className="contact__form">
             <div className="contact__form-div">
-              <label className="contact__form-tag">Name/CORP</label>
+              <label className="contact__form-tag">Name</label>
               <input
                 type="text"
                 name="name"
@@ -108,18 +108,18 @@ const Contact = () => {
             </div>
 
             <div className="contact__form-div contact__form-area">
-              <label className="contact__form-tag">Proposal</label>
+              <label className="contact__form-tag">Order</label>
               <textarea
                 name="project"
                 cols="30"
                 rows="10"
                 className="contact__form-input"
-                placeholder="Write your proposal here"
+                placeholder="2x cinnamon roll... etc."
               ></textarea>
             </div>
 
             <button className="button button--flex">
-              Send Message
+              Send Request!
               <svg
                 class="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
