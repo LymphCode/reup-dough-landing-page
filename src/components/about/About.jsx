@@ -2,7 +2,7 @@ import React from "react";
 import "./about.css";
 import AboutImg from "../../assets/dough.jpg";
 // import CV from "../../assets/Smith-Cv.pdf";
-import Info from "./Info";
+// import Info from "./Info";
 
 const About = () => {
   return (
@@ -14,12 +14,15 @@ const About = () => {
         <img src={AboutImg} alt="" className="about__img" />
 
         <div className="about__data">
-          <Info />
+          {/* <Info /> */}
 
           <p className="about__description">
-            Frontend developer, I create web pages with UI / UX user interface,
-            I have years of experience and many clients are happy with the
-            projects carried out.
+            Reupdough came to be during the difficult times of the pandemic and Minneapolis uprising. We knew we wanted to share love and joy with our local community through conscientious , intentional food and baked goods.
+            <br />
+            If pricing isn’t always accessible to all, we find ways to give back and share to those.
+            Prioritizing in giving back, uplifting, and supporting local makers, especially those that are Black, Indigenous, and lgbtqia+ , where we source our ingredients, and the idea that food is medicine physically and mentally - are all of the things that really matter.
+            <br />
+            We continue to evolve, learn, and take care in making room for those that matter most.
           </p>
 
           {/* <a download="" href={CV} className="button button--flex">

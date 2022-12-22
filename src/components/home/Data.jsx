@@ -57,7 +57,13 @@ const Data = () => {
       </h1>
       {/* <h3 className="home__subtitle">Very.. Very.. Simple..</h3> */}
       <p className="home__description">
-        Slanging all thangs dough
+        "Slanging all thangs dough"
+        <br />
+        -Minneapolis, MN
+        <br />
+        <br />
+        Reup dough was cooked up through the love of food, gratitude, family, and community.
+        Thank you for supporting our journey and for letting us feed you.
       </p>
 
       <a href="#contact" className="button button--flex">

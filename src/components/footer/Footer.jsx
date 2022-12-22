@@ -14,22 +14,22 @@ const Footer = () => {
             </a>
           </li>
 
-          <li>
+          {/* <li>
             <a href="#portfolio" className="footer__link">
               Projects
             </a>
-          </li>
+          </li> */}
 
           <li>
-            <a href="#testimonials" className="footer__link">
-              Testimonials
+            <a href="#services" className="footer__link">
+              Services
             </a>
           </li>
         </ul>
 
         <div className="footer__social">
           <a
-            href="https://www.facebook.com/"
+            href="https://www.facebook.com/reupdough"
             className="footer__social-link"
             target="_blank"
           >
@@ -44,13 +44,13 @@ const Footer = () => {
             <i className="bx bxl-instagram"></i>
           </a>
 
-          <a
+          {/* <a
             href="https://twitter.com/"
             className="footer__social-link"
             target="_blank"
           >
             <i className="bx bxl-twitter"></i>
-          </a>
+          </a> */}
         </div>
 
         <span className="footer__copy">

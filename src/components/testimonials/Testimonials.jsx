@@ -14,8 +14,9 @@ import { Pagination } from "swiper";
 const Testimonials = () => {
   return (
     <section className="testimonial container section">
-      <h2 className="section__title">My clients say</h2>
-      <span className="section__subtitle">Testimonial</span>
+      <h2 className="section__title">What our clients say</h2>
+      <br />
+      {/* <span className="section__subtitle">Testimonial</span> */}
 
       <Swiper
         className="testimonial__container"
