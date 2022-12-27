@@ -1,12 +1,13 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
+import React from "react";
 import "./services.css";
 
 const Services = () => {
-  const [toggleState, setToggleState] = useState(0);
+  // const [toggleState, setToggleState] = useState(0);
 
-  const toggleTab = (index) => {
-    setToggleState(index);
-  };
+  // const toggleTab = (index) => {
+  //   setToggleState(index);
+  // };
 
   return (
     <section className="services section" id="services">
@@ -18,7 +19,7 @@ const Services = () => {
           <div>
             {/* <i className="uil uil-web-grid services__icon"></i> */}
             <h3 className="services__title">
-              Baked goods are pick up only!
+              Saturdays and Holiday pickups with rotating and seasonal menus.
             </h3>
           </div>
         </div>
@@ -27,7 +28,7 @@ const Services = () => {
           <div>
             {/* <i className="uil uil-arrow services__icon"></i> */}
             <h3 className="services__title">
-              Saturdays and Holiday pickups with rotating and seasonal menus.
+              Baked goods are pick up only!
             </h3>
           </div>
         </div>
